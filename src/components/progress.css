@@ -1,0 +1,6 @@
+.progress {
+    @apply shadow-sm rounded-lg border-2 border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 w-64 my-2;
+}
+.progress .progress-width {
+    @apply py-1 bg-blue-500 dark:bg-blue-600 rounded-lg block;
+}

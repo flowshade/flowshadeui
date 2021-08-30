@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowshade UI</title>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+    <script src="switch.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <section class="navbar-meta">
+            <div class="navbar-logo">
+                <img src="flowshadeui.png" alt="">
+            </div>
+            <div class="mobile-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>
+        </section>
+        <section class="navbar-links">
+            <div class="navbar-addon input-group">
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <input class="input" placeholder="Search">
+            </div>
+            <a href="#" class="navbar-link active">Home</a>
+            <a href="#" class="navbar-link">Components</a>
+            <a href="#" class="navbar-link">Github</a>
+            <a href="#" class="navbar-link">About</a>
+        </section>
+    </header>
+    <main class="p-5">
+        <input class="input" placeholder="Type Here..." type="text"/>
+        &nbsp;
+        <button class="button" type="button">Submit</button>
+        <div class="mt-3 input-group">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="input-icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input class="input" placeholder="Search" type="text"/>
+        </div>
+        <div class="mt-3 button-group">
+            <svg xmlns="http://www.w3.org/2000/svg" class="button-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+            </svg>
+            <button class="button">
+              Log In
+            </button>
+        </div>
+        <select class="select mt-3" style="background-position: 94% 47%; background-repeat: no-repeat;">
+            <option>Hello</option>
+            <option>Bye</option>
+        </select>
+        <br>
+        <textarea class="textarea mt-3" placeholder="Comments"></textarea>
+        <div class="progress">
+            <span class="progress-width" style="width: 90%;"></span>
+        </div>
+        <div class="progress">
+            <span class="progress-width" style="width: 50%;"></span>
+        </div>
+        <div class="alert mt-3 bg-blue-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Info!</span>
+        </div>
+        <div class="alert mt-3 bg-green-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Success!</span>
+        </div>
+        <div class="alert mt-3 bg-yellow-500">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Warning!</span>
+        </div>
+        <div class="alert mt-3 bg-red-500">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>Danger!</span>
+        </div>
+
+        <div class="pagination mt-3">
+            <a class="pagination-control">
+                <svg xmlns="http://www.w3.org/2000/svg" class="pagination-svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17l-5-5m0 0l5-5m-5 5h12" />
+                </svg>
+            </a>
+            <a class="pagination-item">1</a>
+            <a class="pagination-item">2</a>
+            <a class="pagination-item">3</a>
+            <a class="pagination-control">
+              <svg xmlns="http://www.w3.org/2000/svg" class="pagination-svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+        </div>
+        <input type="email" class="input mt-3">
+        <p class="mt-3 text-gray-200">The quick brown <b>fox</b> jumped over the lazy dog.</p>
+    </main>
+</body>
+</html>

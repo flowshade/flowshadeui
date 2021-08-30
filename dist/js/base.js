@@ -1,0 +1,1 @@
+module.exports = {".primary":{"--tw-text-opacity":"1","color":"rgba(37, 99, 235, var(--tw-text-opacity))"},".dark body":{"--tw-bg-opacity":"1","backgroundColor":"rgba(24, 24, 27, var(--tw-bg-opacity))"}}

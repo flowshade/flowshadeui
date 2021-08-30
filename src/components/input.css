@@ -1,0 +1,28 @@
+input.input {
+    @apply appearance-none py-1 px-2 bg-gray-100 
+        border-2 border-gray-200 placeholder-gray-400
+        shadow-sm rounded-lg text-base transition focus:outline-none 
+        focus:ring-2 focus:border-opacity-0
+        dark:bg-gray-800 dark:border-gray-700 dark:text-gray-100 focus:ring-blue-500 dark:focus:ring-blue-600;
+    &:invalid {
+        @apply border-opacity-0 ring-2 ring-red-500;
+    }
+}
+select.select {
+    @apply appearance-none py-1 px-2 pr-8 bg-gray-100 border-2 
+        border-gray-200 dark:bg-gray-800 dark:border-gray-700 
+        dark:text-gray-100 shadow-sm rounded-lg text-base transition
+        focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-600 focus:border-opacity-0;
+}
+textarea.textarea {
+    @apply resize py-1 px-2 border-2 
+        bg-gray-100  border-gray-200 placeholder-gray-400
+        dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200
+        shadow-sm rounded-lg text-base transition focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-600 focus:border-opacity-0;
+}
+.input-group input {
+    @apply pl-9;
+}
+.input-icon {
+    @apply h-6 w-6 absolute my-1.5 mx-2 dark:text-gray-300 text-gray-400;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "flowshade-ui",
+  "version": "1.0.0",
+  "description": "Clean and modern tailwind components to use for any project.",
+  "main": "app.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowshade/flowshade-ui.git"
+  },
+  "keywords": [
+    "ui",
+    "components",
+    "design"
+  ],
+  "author": "Flowshade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowshade/flowshade-ui/issues"
+  },
+  "homepage": "https://github.com/flowshade/flowshade-ui#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
+    "postcss-js": "^3.0.3",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {}
+}

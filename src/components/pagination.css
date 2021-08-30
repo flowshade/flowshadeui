@@ -1,0 +1,24 @@
+.pagination {
+    @apply flex;
+}
+
+.pagination .pagination-control {
+    @apply py-1 px-3 rounded-lg shadow-md text-white border-2 border-blue-600
+    transition-all duration-100 bg-blue-600 hover:bg-blue-700 hover:shadow-lg focus:ring-2 focus:ring-blue-600 cursor-pointer;
+}
+
+.pagination-item {
+    @apply py-1 px-2 w-10 rounded-lg shadow-md text-white border-2 border-blue-600 transition-all duration-100 
+    bg-blue-600 hover:bg-blue-700 hover:shadow-lg focus:ring-2 focus:ring-blue-600 mx-1 cursor-pointer text-center;
+}
+.pagination-control:last-child {
+    @apply ml-1;
+}
+
+.pagination-control:first-child {
+    @apply mr-1;
+}
+
+.pagination .pagination-control .pagination-svg {
+    @apply h-6 w-6;
+}

@@ -1,0 +1,2 @@
+@import "./base/colors.css";
+body { @apply dark:bg-gray-900; }

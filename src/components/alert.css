@@ -1,0 +1,6 @@
+.alert {
+    @apply py-3 text-white shadow-lg rounded-lg;
+}
+.alert svg {
+    @apply h-6 w-6 inline-block mx-3 ml-5;
+}
