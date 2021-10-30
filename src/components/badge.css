@@ -1,0 +1,3 @@
+.badge {
+    @apply py-1 px-2 text-white inline text-center shadow-lg rounded-lg text-xs select-none;
+}
