@@ -1,4 +1,5 @@
 {
     "liveServer.settings.port": 5500,
-    "liveServer.settings.root": "/test"
+    "liveServer.settings.root": "/test",
+    "search.useIgnoreFiles": false
 }

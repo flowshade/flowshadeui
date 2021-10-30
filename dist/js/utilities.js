@@ -1,1 +1,1 @@
-module.exports = {".ooof":{"color":"black"}}
+module.exports = {}

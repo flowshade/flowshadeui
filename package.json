@@ -28,5 +28,7 @@
     "postcss-js": "^3.0.3",
     "tailwindcss": "^2.2.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  }
 }

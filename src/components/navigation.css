@@ -43,3 +43,7 @@
         @apply md:mr-6 md:inline md:mt-0;
     }
 }
+
+.link {
+    @apply border-b-2 hover:border-blue-600 dark:hover:border-blue-600 cursor-pointer transition-all dark:text-gray-100;
+}

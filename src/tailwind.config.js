@@ -17,6 +17,7 @@ module.exports = {
             current: "currentColor",
             black: colors.black,
             white: colors.white,
+            primary: colors.blue
         }
     },
     variants: {

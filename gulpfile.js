@@ -6,22 +6,24 @@ const postcss = require("gulp-postcss");
 const atImport = require("postcss-import");
 const convertjs = require('postcss-js');
 const tailwindcss = require('tailwindcss');
+const concat = require("gulp-concat");
 
 function compile () {
     const config = () => ({
         plugins: [
             autoprefixer(),
             atImport({ root: __dirname }),
+            require('tailwindcss/nesting'),
             tailwindcss('./src/tailwind.config.js')
         ]
     });
-    return gulp.src('./src/*.css')
+    return gulp.src(['./src/*.css'])
     .pipe(postcss(config))
-    .pipe(gulp.dest("./dist/css"));
+    .pipe(gulp.dest("./dist/css"))
 }
 
 function transpile (cb) {
-    let files = fs.readdirSync('./dist/css').filter(fn => fn.endsWith('.css')); //Reads and filters the CSS
+    let files = fs.readdirSync('./dist/css').filter(fn => fn.endsWith('.css')).filter(fn => !fn.startsWith("flowshadeui")); //Reads and filters the CSS
     for (let i in files) {
         const css  = fs.readFileSync(`./dist/css/${files[i]}`);
         const root = postcss_compiler.parse(css)
