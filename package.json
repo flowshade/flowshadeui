@@ -29,6 +29,7 @@
     "tailwindcss": "^2.2.7"
   },
   "dependencies": {
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3"
   }
 }

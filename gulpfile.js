@@ -7,6 +7,7 @@ const atImport = require("postcss-import");
 const convertjs = require('postcss-js');
 const tailwindcss = require('tailwindcss');
 const concat = require("gulp-concat");
+const cssnano = require("gulp-cssnano");
 
 function compile () {
     const config = () => ({
@@ -19,6 +20,7 @@ function compile () {
     });
     return gulp.src(['./src/*.css'])
     .pipe(postcss(config))
+    .pipe(cssnano())
     .pipe(gulp.dest("./dist/css"))
 }
 
