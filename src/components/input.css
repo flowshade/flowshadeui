@@ -24,5 +24,5 @@ textarea.textarea {
     @apply pl-9;
 }
 .input-icon {
-    @apply h-6 w-6 absolute my-1.5 mx-2 dark:text-gray-300 text-gray-400;
+    @apply h-5 w-5 absolute my-2 mx-2 dark:text-gray-300 text-gray-400;
 }

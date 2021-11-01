@@ -6,7 +6,6 @@ const postcss = require("gulp-postcss");
 const atImport = require("postcss-import");
 const convertjs = require('postcss-js');
 const tailwindcss = require('tailwindcss');
-const concat = require("gulp-concat");
 const cssnano = require("gulp-cssnano");
 
 function compile () {

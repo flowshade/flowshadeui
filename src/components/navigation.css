@@ -1,46 +1,58 @@
 .navbar {
     @apply flex flex-col justify-between shadow-md py-5 px-6 bg-gray-100 dark:bg-gray-800;
-    @screen md {
-        @apply md:flex-row;
-    }
 }
-.navbar .navbar-meta {
+
+.navbar-meta {
     @apply flex flex-row justify-between;
 }
-.navbar .navbar-meta .navbar-logo img {
-    @apply inline w-8;
+
+.mobile-menu {
+    @apply cursor-pointer select-none self-center;
 }
-.navbar .navbar-meta .mobile-menu {
-    @apply md:hidden cursor-pointer select-none self-center;
-}
-.navbar .navbar-meta .mobile-menu svg {
+
+.mobile-menu svg {
     @apply h-6 w-6 fill-current dark:text-gray-200;
 }
-.navbar .navbar-links {
+
+.navbar-links {
     @apply mt-3 hidden;
-    @screen md {
-        @apply md:mt-0 md:block md:self-center;
-    }
 }
-.navbar .navbar-links .navbar-link {
-    @apply cursor-pointer transition-all block mr-0 mt-2
-        dark:border-gray-700 dark:text-gray-100 hover:border-blue-600;
-    @screen md {
-        @apply md:border-b-2 md:inline md:mr-6 md:mt-0;
-    }
+
+.navbar-link {
+    @apply border-b-0 hover:border-blue-600 dark:hover:border-blue-600 cursor-pointer transition-all block mr-0 mt-2 dark:text-gray-100;
 }
-.navbar .navbar-links .navbar-link:nth-last-child(1) {
-    @screen md {
-        @apply md:mr-0;
-    }
-}
-.navbar .navbar-links .navbar-link.active {
+
+.navbar-link.active {
     @apply border-blue-600;
 }
-.navbar .navbar-links .navbar-addon {
-    @apply block mr-0 mt-2;
-    @screen md {
-        @apply md:mr-6 md:inline md:mt-0;
+
+.navbar-addon {
+    @apply mr-0 mt-2 block;
+}
+
+@screen md {
+    .navbar {
+        @apply flex-row;
+    }
+
+    .mobile-menu {
+        @apply hidden;
+    }
+
+    .navbar-links {
+        @apply mt-0 block self-center;
+    }
+
+    .navbar-link {
+        @apply border-b-2 mr-6 inline mt-0;
+    }
+
+    .navbar-link:nth-last-child(1) {
+        @apply mr-0;
+    }
+
+    .navbar-addon {
+        @apply mr-6 inline mt-0;
     }
 }
 
