@@ -1,1 +1,1 @@
-module.exports = {}
+module.exports = {".dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6,.dark p":{"--tw-text-opacity":"1","color":"rgba(255,255,255,var(--tw-text-opacity))"}}
