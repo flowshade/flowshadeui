@@ -14,14 +14,14 @@ button.button {
     @apply inline-flex flex-row;
 }
 
-.button-group .button:not(:first-child):not(:last-child) {
-    @apply rounded-none;    
-}
-
-.button-group:first-child {
+.button-group .button:first-child {
     @apply rounded-l-lg rounded-r-none;
 }
 
-.button-group:last-child {
+.button-group .button:last-child {
     @apply rounded-r-lg rounded-l-none;
+}
+
+.button-group .button:not(:first-child):not(:last-child) {
+    @apply rounded-none;
 }
