@@ -3,9 +3,25 @@ button.button {
         border-2 transition-all duration-100 hover:shadow-lg focus:ring-2
         border-blue-600 hover:border-blue-700 bg-blue-600 hover:bg-blue-700 focus:ring-blue-600;
 }
-.button-group button.button {
+.button-icon-group button.button {
     @apply pl-8;
 }
 .button-icon {
     @apply h-5 w-5 absolute my-2 mx-2 text-white;
+}
+
+.button-group {
+    @apply inline-flex flex-row;
+}
+
+.button-group .button:not(:first-child):not(:last-child) {
+    @apply rounded-none;    
+}
+
+.button-group:first-child {
+    @apply rounded-l-lg rounded-r-none;
+}
+
+.button-group:last-child {
+    @apply rounded-r-lg rounded-l-none;
 }
