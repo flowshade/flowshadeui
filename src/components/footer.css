@@ -15,7 +15,11 @@
 }
 
 .footer-heading {
-    @apply capitalize text-base text-gray-400;
+    @apply capitalize text-base text-gray-400 dark:text-gray-400;
+}
+
+.footer hr {
+    @apply h-0.5 bg-gray-200 text-gray-200 dark:bg-gray-700 dark:text-gray-700 border-none m-2;
 }
 
 .footer-links .col a.footer-link {

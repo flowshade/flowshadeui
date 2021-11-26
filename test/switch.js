@@ -50,3 +50,9 @@ window.inkshade = {
 }
 
 inkshade.setTheme(localStorage.getItem("data-theme"))
+
+document.onkeydown = function(e) {
+    if (e.ctrlKey && e.shiftKey && e.key == "H") {
+       inkshade.toggleTheme()
+    }
+};
