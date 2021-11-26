@@ -1,0 +1,19 @@
+.modal-overlay {
+    @apply fixed hidden overflow-hidden inset-0 transition-all opacity-0;
+}
+
+.modal-overlay {
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-overlay-cancel {
+    @apply absolute w-full h-full;
+}
+
+.modal-popup {
+    @apply mx-auto mt-40 p-5 w-96 h-80 overflow-y-scroll bg-white dark:bg-gray-800 dark:text-white shadow-lg rounded-lg;
+}
+
+.modal-header {
+    @apply flex justify-between mb-5 items-center;
+}

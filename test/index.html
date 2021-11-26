@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="lib/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
     <script src="switch.js" defer></script>
+    <script src="flowshadeui.js" defer></script>
 </head>
 <body>
     <header class="navbar">
@@ -35,6 +36,41 @@
         </section>
     </header>
     <main class="p-5">
+        <div class="breadcrumb">
+            <a class="link">Profile</a>
+            <p class="breadcrumb-arrow">></p>
+            <a class="link">Account</a>
+            <p class="breadcrumb-arrow">></p>
+            <span>Settings</span>
+        </div>
+        <br>
+        <button class="button" data-modal-toggle="modal1">Toggle Modal</button>
+        <div id="modal1" class="modal-overlay">
+            <div class="modal-popup">
+                <div class="modal-header">
+                    <h1 class="text-xl font-bold">Title</h1>
+                    <button class="button" data-modal-toggle="modal1">Close</button>
+                </div>
+                <div class="modal-content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid aperiam, amet omnis ipsa eligendi dicta quos delectus aspernatur adipisci culpa non mollitia veritatis optio laudantium distinctio at perferendis, blanditiis natus.
+                    
+                </div>
+            </div>
+            <a class="modal-overlay-cancel" data-modal-toggle="modal1"></a>
+        </div>
         <input class="input" placeholder="Type Here..." type="text"/>
         &nbsp;
         <button class="button" type="button">Submit</button>
@@ -52,7 +88,7 @@
               Log In
             </button>
         </div>
-        <select class="select mt-3" style="background-position: 94% 47%; background-repeat: no-repeat;">
+        <select class="select bg-select-arrow mt-3 w-28">
             <option>Hello</option>
             <option>Bye</option>
         </select>

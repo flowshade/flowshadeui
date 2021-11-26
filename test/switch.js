@@ -50,8 +50,3 @@ window.inkshade = {
 }
 
 inkshade.setTheme(localStorage.getItem("data-theme"))
-
-
-$(".navbar .navbar-meta .mobile-menu").click(function() {
-	$(".navbar-links").toggle();
-})

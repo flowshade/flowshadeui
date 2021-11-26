@@ -19,7 +19,7 @@
 }
 
 .navbar-link {
-    @apply border-b-0 hover:border-blue-600 dark:hover:border-blue-600 cursor-pointer transition-all block mr-0 mt-2 dark:text-gray-100;
+    @apply border-b-0 dark:border-gray-700 hover:border-blue-600 dark:hover:border-blue-600 cursor-pointer transition-all block mr-0 mt-2 dark:text-gray-100;
 }
 
 .navbar-link.active {
@@ -57,5 +57,13 @@
 }
 
 .link {
-    @apply border-b-2 hover:border-blue-600 dark:hover:border-blue-600 cursor-pointer transition-all dark:text-gray-100;
+    @apply border-b-2 dark:border-gray-700 hover:border-blue-600 dark:hover:border-blue-600 cursor-pointer transition-all dark:text-gray-100;
+}
+
+.breadcrumb {
+    @apply inline-flex text-sm m-2 dark:text-white;
+}
+
+.breadcrumb-arrow {
+    @apply mx-2;
 }
