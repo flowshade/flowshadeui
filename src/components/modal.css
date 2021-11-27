@@ -11,7 +11,7 @@
 }
 
 .modal-popup {
-    @apply mx-auto mt-40 p-5 w-96 h-80 overflow-y-scroll bg-white dark:bg-gray-800 dark:text-white shadow-lg rounded-lg;
+    @apply absolute inset-x-0 mx-auto mt-40 p-5 w-96 h-80 overflow-y-scroll bg-white dark:bg-gray-800 dark:text-white shadow-lg rounded-lg;
 }
 
 .modal-header {
