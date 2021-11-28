@@ -1,0 +1,26 @@
+{
+    "categories": [
+        "alert",
+        "badge",
+        "button",
+        "code",
+        "footer",
+        "input",
+        "modal",
+        "navigation",
+        "pagination",
+        "progress"
+    ],
+    "components": [{
+        "category": "alert",
+        "types": [{
+                "name": "alert-success",
+                "code": ""
+            },
+            {
+                "name": "alert-warning",
+                "code": ""
+            }
+        ]
+    }]
+}

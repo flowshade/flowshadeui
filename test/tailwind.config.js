@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
     purge: ["./*.html", "./*.js"],
     darkMode: "class", // or 'media' or 'class'
@@ -7,6 +9,11 @@ module.exports = {
         //         'select-arrow': "url('../arrows-scroll-v.svg')"
         //     })
         // }
+        extend: {
+            colors: {
+                primary: colors.red
+            }
+        }
     },
     plugins: [
         require("../index")
