@@ -1,5 +1,4 @@
-
-<img src="test/logo.svg" alt="Flowshade UI Logo" style="width:60px;"/> 
+<img src="assets/logo.svg" alt="Flowshade UI Logo" style="width:60px;"/> 
 
 <h1>Flowshade UI</h1>
 

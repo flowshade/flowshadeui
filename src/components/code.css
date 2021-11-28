@@ -3,7 +3,7 @@
 }
 
 .code-block {
-    @apply font-mono rounded-lg bg-gray-100 dark:bg-gray-800 text-green-500 border-2 border-gray-100 dark:border-gray-700 p-2;
+    @apply font-mono rounded-lg bg-gray-100 dark:bg-gray-800 text-green-500 border-2 border-gray-200 dark:border-gray-700 p-2;
 }
 
 .code, .code-block {
