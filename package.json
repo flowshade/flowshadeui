@@ -1,6 +1,6 @@
 {
   "name": "flowshadeui",
-  "version": "1.0.0",
+  "version": "2.0.0-0",
   "description": "Clean and modern tailwind components to use for any project.",
   "main": "app.js",
   "scripts": {},
