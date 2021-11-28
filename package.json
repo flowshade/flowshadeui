@@ -2,7 +2,7 @@
   "name": "flowshadeui",
   "version": "1.0.0-alpha.0",
   "description": "Clean and modern tailwind components to use for any project.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
