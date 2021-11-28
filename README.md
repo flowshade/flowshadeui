@@ -1,5 +1,5 @@
 
-<img src="logo.svg" alt="Flowshade UI Logo" style="width:60px;"/> 
+<img src="test/logo.svg" alt="Flowshade UI Logo" style="width:60px;"/> 
 
 <h1>Flowshade UI</h1>
 
@@ -23,7 +23,7 @@ A CDN can be a quick and easy way to u Flowshade UI into your project. Just inse
 ```
 
 ##### TailwindCSS Plugin:
-Installing FlowshadeUI from npm can allow to to add FlowshadeUI as a plugin or directly require FlowshadeUI files from ```node_modules```.
+Installing FlowshadeUI from npm can allow you to add FlowshadeUI as a plugin or directly require FlowshadeUI files from ```node_modules```.
 ```shell
 $ npm i @flowshade/flowshade-ui
 ``` 
