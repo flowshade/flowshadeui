@@ -8,7 +8,7 @@ A modern UI library built on Tailwind CSS with built in dark mode.
 ---
 ### Installation
 ##### CDN:
-A CDN can be a quick and easy way to u Flowshade UI into your project. Just insert the following into your ```<head>``` tag:
+A CDN can be a quick and easy way to use Flowshade UI in your project. Just insert the following into your ```<head>``` tag:
 ```html
 <head>
     <!--Include TailwindCSS CDN-->
