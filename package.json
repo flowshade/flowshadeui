@@ -1,7 +1,7 @@
 {
   "name": "flowshadeui",
-  "version": "1.0.0-alpha.0",
-  "description": "Clean and modern tailwind components to use for any project.",
+  "version": "1.0.1-alpha.0",
+  "description": "A modern UI library built on Tailwind CSS with built in dark mode.",
   "main": "index.js",
   "scripts": {},
   "repository": {

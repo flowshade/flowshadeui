@@ -2,6 +2,8 @@
 
 <h1>Flowshade UI</h1>
 
+[![](https://data.jsdelivr.com/v1/package/npm/flowshadeui/badge)](https://www.jsdelivr.com/package/npm/flowshadeui)
+
 A modern UI library built on Tailwind CSS with built in dark mode.
 
 ---
@@ -30,7 +32,7 @@ In `tailwind.config.js`:
 ```js
 module.exports = {
     plugins: [
-        require("@flowshade/flowshade-ui").plugin
+        require("flowshadeui")
     ]
 }
 ```
