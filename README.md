@@ -16,7 +16,7 @@ A CDN can be a quick and easy way to use Flowshade UI in your project. Just inse
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     
     <!-- Include just Flowshade UI styles. -->
-    <link src="https://cdn.jsdelivr.net/npm/flowshadeui@latest/dist/css/flowshadeui.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/flowshadeui@latest/dist/css/flowshadeui.css" rel="stylesheet" />
     
     <!-- Enable components that require a script. -->
     <script src="https://cdn.jsdelivr.net/npm/flowshadeui@latest/dist/js/flowshadeui.js" defer></script>
